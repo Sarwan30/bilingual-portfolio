@@ -62,13 +62,13 @@ const About = ({ lang, bgGradient }) => {
           icon={<FaBriefcase />}
         >
           <h3 className="text-lg font-bold">
-            {lang === "en" ? "QA Engineer - Payworld Digital Services" : "QAエンジニア - Payworld Digital Services"}
+            {lang === "en" ? "Fullstack Developer - Payworld Digital Services Pvt Ltd." : "「フルスタック開発者 - Payworld Digital Services Pvt Ltd."}
           </h3>
           <ul className="list-disc pl-5 text-sm">
-            <li>{lang === "en" ? "Refund API Integration: Implemented a PHP solution at Payworld to trigger the refund API on transaction failures, ensuring correct credit limit resets." : "PayworldでPHPソリューションを実装し、取引失敗時に返金APIをトリガーし、正しいクレジット制限のリセットを確保しました。"}</li>
-            <li>{lang === "en" ? "Developed SQL procedures with CRC32 checksum for data integrity and efficient cross-server data migration." : "CRC32チェックサムを使用したSQLプロシージャを開発し、データの整合性と効率的なクロスサーバーデータ移行を実現しました"}</li>
-            <li>{lang === "en" ? "Developed a Python script to automate SSL certificate expiration checks and send timely alerts to prevent security lapses." : "SSL証明書の有効期限チェックを自動化し、セキュリティの欠落を防ぐために適時アラートを送信するPythonスクリプトを開発しました。"}</li>
-            <li>{lang === "en" ? "Authored and executed API test cases using Postman to validate request-response workflows." : "Postmanを使用してAPIテストケースを作成・実行し、リクエストとレスポンスのワークフローを検証しました。"}</li>
+            <li>{lang === "en" ? "Integrated refund API with PHP to trigger on transaction failures, ensuring accurate credit reset." : "トランザクションが失敗したとき、PHPで返金APIを使って、自動的にクレジットをリセットしました。"}</li>
+            <li>{lang === "en" ? "Developed a geolocation-based validation program to restrict transactions to retailers' registered shop locations." : "小売店の登録された店舗の場所でのみ、トランザクションができるように、位置情報を使った確認プログラムを作りました。"}</li>
+            <li>{lang === "en" ? "Contributed to Domestic Money Transfer system, optimizing backend logic for reliability and scalability." : "国内送金システムのバックエンドを改善して、もっと信頼できて、たくさん使えるようにしました。"}</li>
+            <li>{lang === "en" ? "Engineered UPI backend for Payworld's Prepaid Payment Instrument (PPI), enhancing wallet-based digital transactions." : "Payworldのプリペイド支払いシステムのために、UPIのバックエンドを作って、ウォレットでのデジタル支払いを便利にしました。"}</li>
           </ul>
         </VerticalTimelineElement>
 
