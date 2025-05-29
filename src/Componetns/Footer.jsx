@@ -63,7 +63,7 @@ export default function Footer() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => copyToClipboard("+91 9990014119")}
+                onClick={() => copyToClipboard("+91 9811443577")}
                 className="flex items-center gap-2 bg-card hover:bg-hover px-5 py-3 rounded-lg transition duration-300 text-lg shadow-md hover:shadow-lg"
               >
                 <FaPhone size={20} />
