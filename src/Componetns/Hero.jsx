@@ -124,8 +124,8 @@ const Hero = ({ lang, bgGradient }) => {
         <a
           href={
             lang === "en"
-              ? "https://drive.google.com/file/d/1UjBvlUCzX7QXNvonvywLMt3zC5vNExPY/view?usp=drive_link"
-              : "https://drive.google.com/file/d/1UjBvlUCzX7QXNvonvywLMt3zC5vNExPY/view?usp=drive_link"
+              ? "https://drive.google.com/file/d/12xY2ZhzCrcewkz7ypHc-EJp4nnVaxv-B/view?usp=sharing"
+              : "https://drive.google.com/file/d/12xY2ZhzCrcewkz7ypHc-EJp4nnVaxv-B/view?usp=sharing"
           }
           target="_blank"
           rel="noopener noreferrer"
